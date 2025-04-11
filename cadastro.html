@@ -10,19 +10,19 @@
     </header>
     <main>
       <section = "cadastro">
-        <form action="" method="">
+        <form action="php/cadastro.php" method="POST">
           
         <label for="nome">Nome:</label>
-        <input type="text" placeholder="Insira seu Nome">
+        <input type="text" name="nome" placeholder="Insira seu Nome">
         <br>
       <label for="telefone">telefone:</label>
-      <input type="text" placeholder="Insira seu Telefone">
+      <input type="text" name="telefone" placeholder="Insira seu Telefone">
       <br>
       <label for="data_nas">Data de Nascimento:</label>
-      <input type="date">
+      <input type="date" name="data">
       <br>
       <label for="observacoes">Observações</label>
-      <input type="text" placeholder="Observações sobre o paciente">
+      <input type="text" name="observacao" placeholder="Observações sobre o paciente">
       <br>
       <select name="gravidade">
         <option undefined>Gravidade do paciente</option>
